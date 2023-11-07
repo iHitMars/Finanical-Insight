@@ -3,6 +3,8 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const { Configuration, PlaidApi, PlaidEnvironments } = require("plaid");
 require("dotenv").config();
+const https = require("https");
+const fs = require("fs");
 
 const APP_PORT = process.env.APP_PORT || 8000;
 const PLAID_CLIENT_ID = process.env.PLAID_CLIENT_ID;
@@ -21,6 +23,7 @@ const configuration = new Configuration({
 
 const plaidClient = new PlaidApi(configuration);
 const app = express();
+
 app.use(cors());
 app.use(bodyParser.json());
 
@@ -102,6 +105,6 @@ app.post("/exchange_public_token", async function (request, response, next) {
 	}
 });
 
-app.listen(8000, () => {
-	console.log("server has started");
+https.createServer(app).listen(8000, () => {
+	console.log("server is runing at port 8000");
 });
