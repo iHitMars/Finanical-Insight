@@ -3,10 +3,8 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const { Configuration, PlaidApi, PlaidEnvironments } = require("plaid");
 require("dotenv").config();
-const https = require("https");
-const fs = require("fs");
 
-const APP_PORT = process.env.APP_PORT || 8000;
+const APP_PORT = process.env.PORT || 8000;
 const PLAID_CLIENT_ID = process.env.PLAID_CLIENT_ID;
 const PLAID_SECRET = process.env.PLAID_SECRET;
 const PLAID_ENV = process.env.PLAID_ENV || "sandbox";
@@ -23,7 +21,6 @@ const configuration = new Configuration({
 
 const plaidClient = new PlaidApi(configuration);
 const app = express();
-
 app.use(cors());
 app.use(bodyParser.json());
 
@@ -59,20 +56,24 @@ app.post("/transactions", async function (request, response) {
 app.post("/create_link_token", async function (request, response) {
 	const plaidRequest = {
 		user: {
-			client_user_id: "user-id",
-			phone_number: "+1 415 5550123",
+			// This should correspond to a unique id for the current user.
+			client_user_id: "1213123",
 		},
-		client_name: "Plaid Test Ap p",
-		products: ["transactions"],
+		client_name: "Plaid Test saApp",
+		products: ["transactions", "auth"],
 		language: "en",
-		redirect_uri: "http://localhost:5173/",
 		country_codes: ["US"],
 	};
 	console.log("bye");
 
 	try {
+		console.log("rye");
+
 		const createTokenResponse = await plaidClient.linkTokenCreate(plaidRequest);
+		console.log("mye");
+
 		response.json(createTokenResponse.data);
+		console.log("tye");
 	} catch (error) {
 		response.status(500).send("failure");
 		// handle error
@@ -105,6 +106,6 @@ app.post("/exchange_public_token", async function (request, response, next) {
 	}
 });
 
-https.createServer(app).listen(8000, () => {
-	console.log("server is runing at port 8000");
+app.listen(APP_PORT, () => {
+	console.log("server has started");
 });
