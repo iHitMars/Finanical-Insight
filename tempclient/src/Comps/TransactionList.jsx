@@ -8,29 +8,6 @@ const TransactionList = ({ transactions }) => {
 		_setTransactions(transactions);
 	}, []);
 
-	// const PieChart = ({ data }) => {
-	// 	const chartData = {
-	// 		labels: data.map((transaction) => transaction.name),
-	// 		datasets: [
-	// 			{
-	// 				data: data.map((transaction) => transaction.amount),
-	// 				backgroundColor: [
-	// 					"red",
-	// 					"blue",
-	// 					"green",
-	// 					"yellow",
-	// 					"purple",
-	// 					"orange",
-	// 					"pink",
-	// 					"teal",
-	// 				],
-	// 			},
-	// 		],
-	// 	};
-
-	// 	return <Pie data={chartData} />;
-	// };
-
 	return (
 		<div>
 			<h1>Transaction List</h1>
