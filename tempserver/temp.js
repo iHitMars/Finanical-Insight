@@ -60,7 +60,7 @@ app.post("/create_link_token", async function (request, response) {
 			client_user_id: "1213123",
 		},
 		client_name: "Plaid Test saApp",
-		products: ["transactions", "auth"],
+		products: ["transactions"],
 		language: "en",
 		country_codes: ["US"],
 	};
