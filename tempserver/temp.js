@@ -7,10 +7,10 @@ require("dotenv").config();
 const APP_PORT = process.env.PORT || 8000;
 const PLAID_CLIENT_ID = process.env.PLAID_CLIENT_ID;
 const PLAID_SECRET = process.env.PLAID_SECRET;
-const PLAID_ENV = process.env.PLAID_ENV || "sandbox";
+const PLAID_ENV = process.env.PLAID_ENV || "production";
 
 const configuration = new Configuration({
-	basePath: PlaidEnvironments.sandbox,
+	basePath: PlaidEnvironments.production,
 	baseOptions: {
 		headers: {
 			"PLAID-CLIENT-ID": PLAID_CLIENT_ID,
@@ -67,13 +67,8 @@ app.post("/create_link_token", async function (request, response) {
 	console.log("bye");
 
 	try {
-		console.log("rye");
-
 		const createTokenResponse = await plaidClient.linkTokenCreate(plaidRequest);
-		console.log("mye");
-
 		response.json(createTokenResponse.data);
-		console.log("tye");
 	} catch (error) {
 		response.status(500).send("failure");
 		// handle error
