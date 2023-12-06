@@ -3,8 +3,8 @@
 * Soft UI Dashboard React - v4.0.1
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: /product/soft-ui-dashboard-react
+* Copyright 2023 Creative Tim ()
 
 Coded by www.creative-tim.com
 
@@ -64,7 +64,7 @@ function Projects() {
       <SoftBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
         <SoftBox>
           <SoftTypography variant="h6" gutterBottom>
-            Projects
+            Budget Tracker
           </SoftTypography>
           <SoftBox display="flex" alignItems="center" lineHeight={0}>
             <Icon

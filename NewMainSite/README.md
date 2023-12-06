@@ -1,4 +1,4 @@
-# [Soft UI Dashboard React](http://demos.creative-tim.com/soft-ui-dashboard-react/#/dashboard?ref=readme-sudr) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/soft-ui-dashboard-react&text=Check%20Soft%20UI%20Dashboard%20react%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#softdesign%20#react%20https://www.creative-tim.com/product/soft-ui-dashboard-react)
+# [Soft UI Dashboard React](http://demos.creative-tim.com/soft-ui-dashboard-react/#/dashboard?ref=readme-sudr) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=/product/soft-ui-dashboard-react&text=Check%20Soft%20UI%20Dashboard%20react%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#softdesign%20#react%20/product/soft-ui-dashboard-react)
 
 ![version](https://img.shields.io/badge/version-4.0.1-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/soft-ui-dashboard-react.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/soft-ui-dashboard-react.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-react/issues?q=is%3Aissue+is%3Aclosed)
 
@@ -9,13 +9,13 @@ Start your Development with an Innovative Admin Template for MUI and React. If y
 **Fully Coded Elements**
 Soft UI Dashboard React is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. All components can take variations in color, which you can easily modify using MUI styled api and sx prop. You will save a lot of time going from prototyping to full-functional code because all elements are implemented. This Premium MUI Dashboard is coming with prebuilt design blocks, so the development process is seamless, switching from our pages to the real website is very easy to be done.
 
-View [all components here](https://www.creative-tim.com/learning-lab/react/alerts/soft-ui-dashboard/).
+View [all components here](/learning-lab/react/alerts/soft-ui-dashboard/).
 
 **Documentation built by Developers**
 
 Each element is well presented in very complex documentation.
 
-You can read more about the [documentation here](https://www.creative-tim.com/learning-lab/react/overview/soft-ui-dashboard/).
+You can read more about the [documentation here](/learning-lab/react/overview/soft-ui-dashboard/).
 
 **Example Pages**
 
@@ -26,7 +26,7 @@ View [example pages here](https://demos.creative-tim.com/soft-ui-dashboard-react
 **HELPFUL LINKS**
 
 - View [Github Repository](https://github.com/creativetimofficial/soft-ui-dashboard-react)
-- Check [FAQ Page](https://www.creative-tim.com/faq)
+- Check [FAQ Page](/faq)
 
 #### Special thanks
 
@@ -57,7 +57,7 @@ Let us know your thoughts below. And good luck with development!
 
 ## Versions
 
-[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/soft-ui-dashboard-pro-react?ref=readme-sudr)
+[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](/product/soft-ui-dashboard-pro-react?ref=readme-sudr)
 
 | React |
 | ----- |
@@ -78,7 +78,7 @@ Let us know your thoughts below. And good luck with development!
 
 Quick start options:
 
-- Buy from [Creative Tim](https://www.creative-tim.com/product/soft-ui-dashboard-react?ref=readme-sudr).
+- Buy from [Creative Tim](/product/soft-ui-dashboard-react?ref=readme-sudr).
 
 ## Terminal Commands
 
@@ -87,7 +87,7 @@ Quick start options:
 
 ## Documentation
 
-The documentation for the Soft UI Dashboard is hosted at our [website](https://www.creative-tim.com/learning-lab/react/overview/soft-ui-dashboard/?ref=readme-sudr).
+The documentation for the Soft UI Dashboard is hosted at our [website](/learning-lab/react/overview/soft-ui-dashboard/?ref=readme-sudr).
 
 ### What's included
 
@@ -165,10 +165,10 @@ At present, we officially aim to support the last two versions of the following 
 ## Resources
 
 - [Live Preview](https://demos.creative-tim.com/soft-ui-dashboard-react/#/dashboard?ref=readme-sudr)
-- [Buy Page](https://www.creative-tim.com/product/soft-ui-dashboard-react?ref=readme-sudr)
-- Documentation is [here](https://www.creative-tim.com/learning-lab/react/overview/soft-ui-dashboard/?ref=readme-sudr)
-- [License Agreement](https://www.creative-tim.com/license?ref=readme-sudr)
-- [Support](https://www.creative-tim.com/contact-us?ref=readme-sudr)
+- [Buy Page](/product/soft-ui-dashboard-react?ref=readme-sudr)
+- Documentation is [here](/learning-lab/react/overview/soft-ui-dashboard/?ref=readme-sudr)
+- [License Agreement](/license?ref=readme-sudr)
+- [Support](/contact-us?ref=readme-sudr)
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/soft-ui-dashboard-react/issues)
 - [Nepcha Analytics](https://nepcha.com?ref=readme) - Analytics tool for your website
 
@@ -176,28 +176,28 @@ At present, we officially aim to support the last two versions of the following 
 
 We use GitHub Issues as the official bug tracker for the Soft UI Dashboard React. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the Soft UI Dashboard React. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/soft-ui-dashboard-react?ref=readme-sudr).
+1. Make sure that you are using the latest version of the Soft UI Dashboard React. Check the CHANGELOG from your dashboard on our [website](/product/soft-ui-dashboard-react?ref=readme-sudr).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
 ## Technical Support or Questions
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-sudr) instead of opening an issue.
+If you have questions or need help integrating the product please [contact us](/contact-us?ref=readme-sudr) instead of opening an issue.
 
 ## Licensing
 
-- Copyright 2021 [Creative Tim](https://www.creative-tim.com?ref=readme-sudr)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-sudr)
+- Copyright 2021 [Creative Tim](?ref=readme-sudr)
+- Creative Tim [license](/license?ref=readme-sudr)
 
 ## Useful Links
 
-- [More products](https://www.creative-tim.com/templates?ref=readme-sudr) from Creative Tim
+- [More products](/templates?ref=readme-sudr) from Creative Tim
 
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
 
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-sudr) from Creative Tim
+- [Freebies](/bootstrap-themes/free?ref=readme-sudr) from Creative Tim
 
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-sudr) (earn money)
+- [Affiliate Program](/affiliates/new?ref=readme-sudr) (earn money)
 
 ##### Social Media
 

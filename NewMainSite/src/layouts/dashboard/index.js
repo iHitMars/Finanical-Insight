@@ -3,8 +3,8 @@
 * Soft UI Dashboard React - v4.0.1
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: /product/soft-ui-dashboard-react
+* Copyright 2023 Creative Tim ()
 
 Coded by www.creative-tim.com
 
@@ -103,7 +103,7 @@ function Dashboard() {
           <Grid container spacing={3}>
             <Grid item xs={12} lg={5}>
               <ReportsBarChart
-                title="active users"
+                title="active subscriptions"
                 description={
                   <>
                     (<strong>+23%</strong>) than last week
@@ -115,7 +115,7 @@ function Dashboard() {
             </Grid>
             <Grid item xs={12} lg={7}>
               <GradientLineChart
-                title="Sales Overview"
+                title="Spending Overview"
                 description={
                   <SoftBox display="flex" alignItems="center">
                     <SoftBox fontSize={size.lg} color="success" mb={0.3} mr={0.5} lineHeight={0}>
