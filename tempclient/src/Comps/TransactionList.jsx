@@ -28,7 +28,10 @@ const TransactionList = ({ transactions }) => {
 								<strong>Amount:</strong> {transaction.amount}
 							</p>
 							<p>
-								<strong>Category:</strong> {transaction.category.join(", ")}
+								<strong>Category:</strong>{" "}
+								{transaction &&
+									transaction.category &&
+									transaction.category.join(", ")}
 							</p>
 							<p>
 								<strong>Transaction Type:</strong>{" "}

@@ -4,7 +4,7 @@ import axios from "axios";
 import { usePlaidLink } from "react-plaid-link";
 import TransactionList from "./Comps/TransactionList";
 
-axios.defaults.baseURL = "http://127.0.0.1:8000";
+axios.defaults.baseURL = "https://ex-ba-595000f29186.herokuapp.com";
 
 function PlaidAuth({ publicToken }) {
 	const [account, setAccount] = useState();
